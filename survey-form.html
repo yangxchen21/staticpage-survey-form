@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">
+            yxChenCodeSurveyForm
+        </h1>
+        <p id="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <br>
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <label for="age">Age&nbsp;<span>(optional)</span></label>
+                <br>
+                <input type="text" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select>
+                    <option >Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="full_time_job">Full Time Job</option>
+                    <option value="full_time_learner">Full Time Learner</option>
+                    <option value="pre_not_to_say">Pre Not to Say</option>
+                    <option value="other">Other</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="radio-def">
+                    <input id="radio-def" name="recommend" value="defnitely" type="radio">
+                    Definitely
+                </label>
+                <br>
+                <label for="radio-may" >
+                    <input id="radio-may" name="recommend" value="maybe" type="radio">
+                    Maybe
+                </label>
+                <br>
+                <label for="radio-ns" >
+                    <input id="radio-ns" name="recommend" value="not-sure" type="radio">
+                    Not Sure
+                </label>
+            </div>
+            <div class="form-group">
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select>
+                    <option >Select an option</option>
+                    <option value="challenge">challenge</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label for="chb-fep">
+                    <input id="chb-fep" name="improved" value="Front-end Projects" type="checkbox">
+                    Front-end Projects
+                </label>
+                <br>
+                <label for="chb-bep">
+                    <input id="chb-bep" name="improved" value="Back-end Projects" type="checkbox">
+                    Back-end Projects
+                </label>
+                <br>
+                <label for="chb-dv">
+                    <input id="chb-dv" name="improved" value="Data Visualization" type="checkbox">
+                    Data Visualization
+                </label>
+                <br>
+                <label for="chb-cl">
+                    <input id="chb-cl" name="improved" value="Challenges" type="checkbox">
+                    Challenges
+                </label>
+                <br>
+                <label for="chb-osc">
+                    <input id="chb-osc" name="improved" value="Open Source Community" type="checkbox">
+                    Open Source Community
+                </label>
+                <br>
+                <label for="chb-ghr">
+                    <input id="chb-ghr" name="improved" value="Gitter help rooms" type="checkbox">
+                    Gitter help rooms
+                </label>
+                <br>
+                <label for="chb-vid">
+                    <input id="chb-vid" name="improved" value="Videos" type="checkbox">
+                    Videos
+                </label>
+                <br>
+                <label for="chb-cm">
+                    <input id="chb-cm" name="improved" value="City Meetups" type="checkbox">
+                    City Meetups
+                </label>
+                <br>
+                <label for="chb-wiki">
+                    <input id="chb-wiki" name="improved" value="Wiki" type="checkbox">
+                    Wiki
+                </label>
+                <br>
+                <label for="chb-fru">
+                    <input id="chb-fru" name="improved" value="Forum" type="checkbox">
+                    Forum
+                </label>
+                <br>
+                <label for="chb-ac">
+                    <input id="chb-ac" name="improved" value="Additional Courses" type="checkbox">
+                    Additional Courses
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea name="suggestions"  cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
